@@ -4,7 +4,7 @@ from selenium import webdriver
 
 class BaseTestCase(TestCase):
     def setUp(self):
-        self.driver = webdriver.Chrome()
+        self.driver = webdriver.Firefox()
         self.driver.implicitly_wait(30)
         self.driver.get('http://www.python.org/')
 
