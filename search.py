@@ -13,6 +13,7 @@ class SearchRegion(BasePage):
         self.search_field.clear()
         self.search_field.send_keys(term)
         self.search_field.submit()
+
         return SearchResults(self.driver)
 
 

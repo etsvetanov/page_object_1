@@ -4,7 +4,7 @@ from test import BaseTestCase
 
 
 class SearchArticleTest(BaseTestCase):
-    def testSearchForArticle(self):
+    def test_search_for_article(self):
         homepage = HomePage(self.driver)
 
         search_results = homepage.search.searchFor('decorators')

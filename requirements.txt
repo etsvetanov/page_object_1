@@ -1,0 +1,3 @@
+nose==1.3.7
+selenium==2.53.6
+xmlrunner==1.7.7
